@@ -24,7 +24,7 @@
 #define HALL_PIN_R 7
 #define PPR      32
 
-#define MIN_RPM  1.0f
+#define MIN_RPM  15.0f
 #define MAX_RPM  5000.0f
 #define RPM_TIMEOUT_US \
     ((uint32_t)((60.0e6f / (MIN_RPM * (float)PPR))))
